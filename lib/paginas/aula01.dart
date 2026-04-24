@@ -6,10 +6,17 @@ class Aula01 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("001 - Container"),)
-    body: Center(
-      child: Container(
-        child: Text("container"),)),
+      appBar: AppBar(
+        title: Text("001 - Container"),
+      ),
+      body: Center(
+          child: Column(
+            children: [
+              Container(
+                      child: Text("container"),
+                    ),
+            ],
+          )),
     );
   }
 }
