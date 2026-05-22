@@ -5,4 +5,5 @@ import 'package:flutter_app/paginas/aula01.dart';
 final Map<String, WidgetBuilder> appRoutes = {
   "/": (context) => const MyHomePage(title: 'Página Principal'),
   "/aula01": (context) => const Aula01(),
+  "/aula02": (context) => const Aula02(),
 };
