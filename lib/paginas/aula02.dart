@@ -55,7 +55,7 @@ class Aula02 extends StatelessWidget {
               height: 20,
               child: Text("Start (Padrão)"),
             ),
-            
+            _construirLinha(MainAxisAlignment.start, Icons.seven_k_rounded, Icons.eight_k_rounded, Icons.nine_k_rounded)
             // definindo uma coluna
            Container(
               decoration: BoxDecoration(
